@@ -1,0 +1,23 @@
+button{
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    color: darkred;
+}
+
+button svg{
+    stroke: #665858;
+}
+
+button:hover svg{
+    stroke: currentColor;
+}
